@@ -3,6 +3,12 @@ nav>ul>li {
     margin: 15px;
 }
 
+nav li:hover {
+    background-color: rgb(241, 241, 220);
+    padding: 5px;
+    border: 2px solid sandybrown;
+}
+
 a {
     text-decoration: none;
 }
