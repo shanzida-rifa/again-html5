@@ -13,6 +13,17 @@ a {
     text-decoration: none;
 }
 
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    padding-right: 50px;
+    background-color: bisque;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+
 footer {
     margin: 30px;
     text-align: center;
